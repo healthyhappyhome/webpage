@@ -29,53 +29,20 @@ const SvgComponent = (props) => (
       transform="translate(13.6 362.6)"
       style={{
         fontSize: 33,
-        fontFamily: "HeliosAntique-Regular,Helios Antique",
+        fontFamily: "\"Inter\", sans-serif",
         fill: "#588074",
       }}
     >
-      {"H"}
       <tspan
         x={25.6}
         y={0}
         style={{
           letterSpacing: "-.02em",
         }}
-      >
-        {"E"}
+        >
+        {"HEALTHY & HAPPY HOME"}
       </tspan>
-      <tspan
-        x={47.6}
-        y={0}
-        style={{
-          letterSpacing: 0,
-        }}
-      >
-        {"A"}
-      </tspan>
-      <tspan
-        x={72.6}
-        y={0}
-        style={{
-          letterSpacing: "-.11em",
-        }}
-      >
-        {"L"}
-      </tspan>
-      <tspan x={89.7} y={0}>
-        {"THY & HAP"}
-      </tspan>
-      <tspan
-        x={276.2}
-        y={0}
-        style={{
-          letterSpacing: "-.01em",
-        }}
-      >
-        {"P"}
-      </tspan>
-      <tspan x={298} y={0}>
-        {"Y HOME"}
-      </tspan>
+      
     </text>
   </svg>
 )
